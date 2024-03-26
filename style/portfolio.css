@@ -44,6 +44,8 @@ nav a{
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+    margin-top: 30px;
+   
  
 
 }
@@ -79,13 +81,18 @@ nav a{
     margin-bottom: 20px;
 }
 .bannar-discription{
-
+    margin-top:20px;
 }
 
 .bannar-content{
     max-width: 500px;
 }
-/* main section style*/
+/* main section */
+
+
+.main-section{
+    margin-top: 150px;
+}
 .about{
     padding: 130px;
     border-radius: 0px;
@@ -103,4 +110,86 @@ nav a{
     color: #757575;
     text-align: center;
     font-size: 18px;
+    
+}
+
+.main-style{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+
+}
+.about-info{
+    text-align: center;
+}
+
+/* what i do */
+#what-i-do-description{
+    padding: 30px 130px;
+
+}
+/* skill related style */
+.skill-container{
+    display: flex;
+    gap: 25px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+   
+}
+.skill{
+   padding: 33px;
+
+}
+.skill-description{
+    color: rgb(117, 117, 117);
+}
+
+/* resume-style */
+.resume-container{
+    display: flex;
+    gap: 70px;
+}
+.resume-colum-title{
+    color: rgb(71, 71, 71);
+
+    font-size: 30px;
+
+    text-align: left;
+}
+.resume-item-in,.rusume-item-description{
+    color: rgb(117, 117, 117);
+}
+.resume-item-title{
+    color: rgb(71, 71, 71);
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.resume-container hr{
+    margin: 30px;
+}
+
+.resume-item-in{
+    margin-bottom: 20px;
+    margin-top: 0px;
+
+}
+.download-cv{
+    margin-bottom: 20px ;
+    text-align: center;
+    margin-top: 50px;
+
+}
+.footer{
+    display: flex;
+    background-color:  rgb(255, 248, 243);
+    padding: 130px 200px;
+    margin-top: 130px;
 }
